@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/bg_rectangle_line_gray">
+
+    <ImageView
+        android:id="@+id/img_news"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="10dp"
+        android:scaleType="fitCenter"
+        android:src="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_newsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/img_news"
+        android:layout_toRightOf="@id/img_news"
+        android:gravity="center_vertical"
+        android:text="제목 제목"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_newsContent"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/tv_newsTitle"
+        android:layout_alignLeft="@id/tv_newsTitle"
+        android:gravity="center_vertical"
+        android:text="내용 내용 내용 내용"
+        android:textColor="@color/gray"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_newsCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/tv_newsContent"
+        android:layout_alignLeft="@id/tv_newsTitle"
+        android:gravity="center_vertical"
+        android:text="회사이름"
+        android:textColor="@color/gray"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_dashbar"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@id/tv_newsCompany"
+        android:layout_toRightOf="@id/tv_newsCompany"
+        android:gravity="center"
+        android:text="  -  "
+        android:textColor="@color/gray"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_newsDate"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@id/tv_newsCompany"
+        android:layout_toRightOf="@id/tv_dashbar"
+        android:text="2021.08.06"
+        android:textColor="@color/gray"
+        android:textSize="20dp" />
+
+</RelativeLayout>
