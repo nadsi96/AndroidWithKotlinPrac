@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.activities
 
 import android.content.Intent
 import android.graphics.Color
@@ -9,6 +9,8 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.myapplication.CheckRegisterData
+import com.example.myapplication.R
 import com.example.myapplication.data.RegisterData
 import kotlinx.android.synthetic.main.activity_register.*
 

@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
+import com.example.myapplication.activities.LoginActivity
 
 class Intro : AppCompatActivity() {
 

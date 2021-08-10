@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import com.example.myapplication.activities.LoginActivity
 import com.example.myapplication.data.RegisterData
 import kotlinx.android.synthetic.main.activity_check_register_data.*
 

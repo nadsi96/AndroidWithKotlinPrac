@@ -16,12 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity">
+        <activity android:name=".activities.LoginActivity">
 
         </activity>
-        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".activities.RegisterActivity"></activity>
         <activity android:name=".CheckRegisterData" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.ViewPagerActivity" />
     </application>
 
 </manifest>

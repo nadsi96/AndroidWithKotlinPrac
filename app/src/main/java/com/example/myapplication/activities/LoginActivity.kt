@@ -1,9 +1,10 @@
-package com.example.myapplication
+package com.example.myapplication.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.myapplication.R
 import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
@@ -12,8 +13,8 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         btn_login.setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
-
+//            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, ViewPagerActivity::class.java))
         }
         btn_register.setOnClickListener {
             startActivity(Intent(this, RegisterActivity::class.java))

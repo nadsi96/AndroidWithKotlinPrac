@@ -1,9 +1,11 @@
-package com.example.myapplication
+package com.example.myapplication.activities
 
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.example.myapplication.NewsListViewAdapter
+import com.example.myapplication.R
 import com.example.myapplication.listItem.NewsListItem
 import kotlinx.android.synthetic.main.activity_main.*
 
