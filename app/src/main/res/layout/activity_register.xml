@@ -6,57 +6,6 @@
     android:background="#F4F4F4"
     android:orientation="vertical"
     tools:context=".activities.MainActivity">
-    <!--
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingHorizontal="30dp"
-            >
-            <ImageView
-                android:id="@+id/img"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/ic_launcher_background"
-                android:src="@drawable/ic_launcher_foreground"
-                android:cropToPadding="true"
-                android:scaleType="center"
-                android:padding="10dp"
-                />
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/ic_launcher_background"
-                android:src="@drawable/ic_launcher_foreground"
-                android:cropToPadding="false"
-                android:scaleType="center"
-                android:layout_marginHorizontal="30dp"
-                android:padding="10dp"
-                />
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/bg_circle_borderline_red"
-                android:src="#ffff00"
-                android:cropToPadding="true"
-                android:padding="10dp"
-                />
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/inset"
-                android:src="@drawable/ic_launcher_foreground"
-                android:scaleType="center"
-                android:cropToPadding="true"
-                android:padding="10dp"
-                />
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/test2"
-
-                />
-        </LinearLayout>
-    -->
 
     <ImageView
         android:layout_width="match_parent"
@@ -67,7 +16,7 @@
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/bg_rectangle_line_gray"
@@ -76,8 +25,7 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
+            android:layout_height="60dp"
             android:layout_columnWeight="1"
             android:layout_marginLeft="10dp"
             android:gravity="center_vertical"
@@ -88,8 +36,7 @@
         <EditText
             android:id="@+id/et_id"
             android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
+            android:layout_height="60dp"
             android:layout_columnWeight="2"
             android:backgroundTint="@android:color/transparent"
             android:gravity="center_vertical"
@@ -99,8 +46,7 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
+            android:layout_height="60dp"
             android:layout_columnWeight="1.5"
             android:gravity="center_vertical"
             android:text="\@smsoftlab.co.kr"
@@ -116,8 +62,7 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
+            android:layout_height="60dp"
             android:layout_columnWeight="1"
             android:layout_marginLeft="10dp"
             android:gravity="center_vertical"
@@ -128,8 +73,7 @@
         <EditText
             android:id="@+id/et_pw"
             android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
+            android:layout_height="60dp"
             android:layout_columnSpan="2"
             android:layout_columnWeight="2"
             android:backgroundTint="@android:color/transparent"
@@ -147,8 +91,7 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
+            android:layout_height="60dp"
             android:layout_columnWeight="1.5"
             android:layout_marginLeft="10dp"
             android:gravity="center_vertical"
@@ -159,8 +102,7 @@
         <EditText
             android:id="@+id/et_pwCheck"
             android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
+            android:layout_height="60dp"
             android:layout_columnSpan="2"
             android:layout_columnWeight="2"
             android:backgroundTint="@android:color/transparent"
@@ -173,7 +115,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/bg_rectangle_line_gray"
@@ -181,8 +123,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="60dp"
             android:gravity="center_vertical">
 
             <TextView
@@ -211,8 +152,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:paddingHorizontal="10dp"
             android:paddingVertical="5dp">
@@ -220,7 +160,7 @@
             <TextView
                 android:id="@+id/tv_male"
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="60dp"
                 android:layout_weight="1"
                 android:foreground="@drawable/bg_rectangle_line_border"
                 android:gravity="center"
@@ -232,7 +172,7 @@
             <TextView
                 android:id="@+id/tv_female"
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="60dp"
                 android:layout_weight="1"
                 android:foreground="@drawable/bg_rectangle_line_border"
                 android:gravity="center"
@@ -249,13 +189,12 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:gravity="center_vertical">
 
             <TextView
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:padding="10dp"
@@ -272,7 +211,7 @@
             <EditText
                 android:id="@+id/et_birthYear"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_weight="2"
                 android:backgroundTint="@android:color/transparent"
                 android:digits="0123456789"
@@ -288,7 +227,7 @@
             <EditText
                 android:id="@+id/et_birthMonth"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_weight="2"
                 android:backgroundTint="@android:color/transparent"
                 android:digits="0123456789"
@@ -303,7 +242,7 @@
             <EditText
                 android:id="@+id/et_birthDate"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_weight="2"
                 android:backgroundTint="@android:color/transparent"
                 android:digits="0123456789"
@@ -323,13 +262,12 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:gravity="center_vertical">
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginLeft="10dp"
                 android:text="비상연락용 이메일"
                 android:textColor="@color/black"
@@ -338,7 +276,7 @@
             <EditText
                 android:id="@+id/et_tempEmail"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginHorizontal="10dp"
                 android:backgroundTint="@android:color/transparent"
                 android:inputType="textEmailAddress"
@@ -349,7 +287,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/bg_rectangle_line_gray">
@@ -358,14 +296,13 @@
             android:id="@+id/line"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_centerInParent="true"
+            android:layout_below="@id/btn_verify"
             android:background="#E3E3E3" />
 
         <Button
             android:id="@+id/btn_verify"
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_above="@id/line"
+            android:layout_height="50dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
             android:layout_marginVertical="5dp"
@@ -374,29 +311,28 @@
             android:text="인증"
             android:textColor="@color/black"
             android:textSize="14dp"
-            android:gravity="center_vertical"/>
+            android:gravity="center" />
 
         <Button
             android:id="@+id/btn_check"
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_height="50dp"
             android:layout_below="@id/line"
             android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
             android:layout_marginVertical="5dp"
             android:layout_marginRight="10dp"
             android:backgroundTint="@color/white"
             android:text="확인"
             android:textColor="@color/black"
             android:textSize="14dp"
-            android:gravity="center_vertical"/>
+            android:gravity="center"
+            android:enabled="false"/>
 
 
         <EditText
             android:id="@+id/et_phone"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@id/btn_verify"
+            android:layout_height="60dp"
             android:layout_marginHorizontal="10dp"
             android:layout_toLeftOf="@id/btn_verify"
             android:backgroundTint="@android:color/transparent"
@@ -404,14 +340,15 @@
             android:inputType="phone"
             android:textColor="@color/black"
             android:textColorHint="#aaaaaa"
+            android:gravity="center_vertical"
             android:textSize="14dp" />
 
         <EditText
             android:id="@+id/et_verifyNum"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@id/btn_check"
+            android:layout_height="60dp"
             android:layout_marginHorizontal="10dp"
+            android:layout_alignBottom="@id/btn_check"
             android:layout_toLeftOf="@id/btn_check"
             android:backgroundTint="@android:color/transparent"
             android:digits="0123456789"
@@ -421,6 +358,20 @@
             android:textColor="@color/black"
             android:textColorHint="#aaaaaa"
             android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_verifyTimeLimit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30초"
+            android:textSize="10dp"
+            android:layout_alignTop="@id/btn_check"
+            android:layout_alignRight="@id/et_verifyNum"
+            android:layout_marginRight="50dp"
+            android:textColor="#ff0000"
+            android:visibility="invisible"
+            />
+
     </RelativeLayout>
 
     <Button

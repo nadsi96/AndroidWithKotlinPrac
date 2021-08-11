@@ -1,16 +1,13 @@
-package com.example.myapplication.activities.main_fragments
+package com.example.myapplication.activities.viewPager_fragments
 
 import android.app.AlertDialog
-import android.app.Dialog
 import android.content.DialogInterface
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
 import android.widget.PopupWindow
 import android.widget.Toast
-import androidx.constraintlayout.widget.ConstraintSet
 import androidx.fragment.app.Fragment
 import com.example.myapplication.R
 import com.example.myapplication.customDialog.CustomDialog

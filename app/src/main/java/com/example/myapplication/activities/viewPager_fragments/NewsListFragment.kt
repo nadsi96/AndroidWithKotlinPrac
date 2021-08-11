@@ -1,4 +1,4 @@
-package com.example.myapplication.activities.main_fragments
+package com.example.myapplication.activities.viewPager_fragments
 
 import android.os.Bundle
 import android.util.Log
